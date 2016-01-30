@@ -1,0 +1,34 @@
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.rmi.RemoteException;
+
+import javax.xml.namespace.QName;
+import javax.xml.rpc.ServiceException;
+import javax.xml.ws.Service;
+
+import com.earther.ws.HelloWorld_ImplService;
+import com.earther.ws.HelloWorld_ImplServiceLocator;
+import com.earther.ws.HelloWorld_Interface;
+
+public class ws_client {
+
+	public static void main(String[] args) throws MalformedURLException, ServiceException, RemoteException {
+		// TODO Auto-generated method stub
+//		URL url = new URL("http://localhost:9999/ws/hello?wsdl");
+//		
+//        //1st argument service URI, refer to wsdl document above
+//	//2nd argument is service name, refer to wsdl document above
+//        QName qname = new QName("http://ws.earther.com/", "HelloWorldImplService");
+//        Service service = Service.create(url, qname);
+//
+//        HelloWorld_Impl hello = service.getPort(HelloWorld_Impl.class);
+//
+//        System.out.println(hello.getHelloworld("mkyong"));
+		
+		HelloWorld_ImplServiceLocator helloService = new HelloWorld_ImplServiceLocator();
+		HelloWorld_Interface hello = helloService.getHelloWorld_ImplPort();
+	
+		System.out.println(hello.getHelloworld("mkyong"));
+	}
+
+}

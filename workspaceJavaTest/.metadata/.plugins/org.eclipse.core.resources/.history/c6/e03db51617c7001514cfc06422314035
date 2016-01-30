@@ -1,0 +1,7 @@
+import javax.jws.WebMethod;
+
+public interface HelloWorld {
+
+	@WebMethod
+	public String getHelloworld(String name);
+}

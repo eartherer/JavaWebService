@@ -1,0 +1,10 @@
+
+public class HelloWorld_Impl implements HelloWorld_Interface {
+
+	@Override
+	public String getHelloworld(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

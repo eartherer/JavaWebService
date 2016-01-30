@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="javax.xml.ws.WebFault"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+<fullyQualifiedTypeName name="HelloWorld_Impl"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Service"/>
+<fullyQualifiedTypeName name="com.earther.ws.HelloWorld_Impl"/>
+</qualifiedTypeNameHistroy>
