@@ -65,3 +65,26 @@ java.net.UnknownHostException: www.codetrails.com: unknown error
 	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
 	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-01-30 16:42:57.125 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Earther/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Earther/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-01-30 16:43:41.947
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2016-01-30 16:43:48.970
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2016-01-30 16:44:00.287
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'org.eclipse.platform.discovery.compatibility' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-01-30 16:44:00.729
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'org.eclipse.platform.discovery.util' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!

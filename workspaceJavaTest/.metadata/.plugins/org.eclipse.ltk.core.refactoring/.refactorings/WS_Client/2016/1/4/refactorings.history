@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 10 elements from project &apos;WS_Client&apos;&#x0A;- Original project: &apos;WS_Client&apos;&#x0A;- Original elements:&#x0A;     WS_Client/src/(default package)&#x0A;     HelloWorld_Impl.java&#x0A;     HelloWorld_Interface.java&#x0A;     ws_client.java&#x0A;     WS_Client/src/com.earther.ws&#x0A;     com.earther.ws.HelloWorld_ImplPortBindingStub.java&#x0A;     com.earther.ws.HelloWorld_ImplService.java&#x0A;     com.earther.ws.HelloWorld_ImplServiceLocator.java&#x0A;     com.earther.ws.HelloWorld_Interface.java&#x0A;     com.earther.ws.HelloWorld_InterfaceProxy.java" description="Delete elements" element1="/src&lt;com.earther.ws" element2="/src&lt;com.earther" element3="/src&lt;com" element4="/src&lt;" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1454149143067" subPackages="false" version="1.0"/>
+</session>
